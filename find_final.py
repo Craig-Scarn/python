@@ -2,7 +2,7 @@
 import os
 import re
 cmd = 'ls -l'
-pattern = '[Pp][Aa][Ss][Ss][Ww][Oo][Rr][Dd]'
+pattern = '[Pp][Aa@]..[Ww][Oo0][Rr][Dd]*'
 
 #Get list of files
 output = os.popen(cmd).read()
